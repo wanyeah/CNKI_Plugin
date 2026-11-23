@@ -1,0 +1,26 @@
+# 登录态与会话（含 Cookie，绝不能分发）
+cnki_paper_api/storage/cnki_state.json
+cnki_paper_api/storage/*.json
+
+# 运行时生成物
+cnki_paper_api/storage/cache.sqlite3
+cnki_paper_api/storage/*.sqlite3
+cnki_paper_api/storage/*.log
+cnki_paper_api/storage/*.pid
+cnki_paper_api/storage/
+
+# 下载的论文 PDF（版权内容，不分发）
+downloads/
+*.pdf
+
+# 本地环境变量
+.env
+cnki_paper_api/.env
+
+# 工作区内部记忆与配置（不随仓库分发）
+.workbuddy/
+
+# Python 编译缓存
+__pycache__/
+*.pyc
+*.pyo
