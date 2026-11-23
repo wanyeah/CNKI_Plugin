@@ -17,8 +17,6 @@ downloads/
 .env
 cnki_paper_api/.env
 
-# 工作区内部记忆与配置（不随仓库分发）
-.workbuddy/
 
 # Python 编译缓存
 __pycache__/
